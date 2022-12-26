@@ -7,8 +7,7 @@ import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer
 
-
-from .luke.utils.entity_vocab import EntityVocab, MASK_TOKEN, PAD_TOKEN
+from luke.utils.entity_vocab import EntityVocab, MASK_TOKEN, PAD_TOKEN
 
 from dataloader import create_dataloader
 from dataset import load_dataset
